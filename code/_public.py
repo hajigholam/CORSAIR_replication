@@ -9,8 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import _public as pb
 import copy
-import jieba
-import jieba.analyse
+#import jieba
+#import jieba.analyse
 import json
 import logging
 import math
@@ -131,7 +131,7 @@ def Get_Report(true_labels, pred_labels):
     # macro_precision = -1.0
     micro_precision = metrics.precision_score(true_labels, pred_labels, average='micro')
     # micro_precision = -1.0
-    # macro_f1 = metrics.f1_score(true_labels, pred_labels, average='macro')
+    macro_f1 = metrics.f1_score(true_labels, pred_labels, average='macro')
     # macro_f1 = metrics.f1_score(y_true=true_labels, y_pred=pred_labels, average='macro')
     micro_f1 = metrics.f1_score(true_labels, pred_labels, average='micro')
     # micro_f1 = -1.0
