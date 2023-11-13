@@ -9,8 +9,8 @@ from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
 import _public as pb
 import copy
-#import jieba
-#import jieba.analyse
+import jieba
+import jieba.analyse
 import json
 import logging
 import math
