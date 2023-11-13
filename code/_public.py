@@ -122,7 +122,7 @@ def Get_Report(true_labels, pred_labels):
     true_labels = [int(v) for v in true_labels]
     pred_labels = [int(v) for v in pred_labels]
     # label_list = sorted(list(set(true_labels+pred_labels)))
-    # label_list = YList
+    label_list = YList
     macro_recall = metrics.recall_score(true_labels, pred_labels, average='macro')
     # macro_recall = -1.0
     micro_recall = metrics.recall_score(true_labels, pred_labels, average='micro')
