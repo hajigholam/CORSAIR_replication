@@ -54,7 +54,7 @@ XMaxLenLimit = 300
 YList = []
 Mask_Token = '[MASK]'
 Train_Example_Num_Control = 80000
-Use_GPU = False
+Use_GPU = True
 Tqdm_Len = 80
 Train_Distribution = []
 # training
