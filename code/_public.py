@@ -38,7 +38,7 @@ Dataset_Names = ['Twitter']
 # ['HyperPartisan','Twitter','ARC','SCIERC','ChemProt','Economy','20News','Parties','Yelp_Hotel','Taobao','Suning']
 EDA = False
 Weight = False
-Base_Model = 'TextCNN'
+Base_Model = 'RoBERTa'
 # TextCNN RoBERTa
 Save_Path = './Results.txt'
 
