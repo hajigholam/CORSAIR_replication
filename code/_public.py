@@ -40,7 +40,7 @@ EDA = False
 Weight = False
 Base_Model = 'RoBERTa'
 # TextCNN RoBERTa
-Save_Path = './Results.txt'
+Save_Path = '/content/drive/MyDrive/Thesis/CORSAIR/Results.txt'
 
 # public
 INF = 999999999
